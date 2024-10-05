@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.gradient-background {
+    background: linear-gradient(300deg,  #1B1717, #CE1212, #EEEBDD);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .profile-img {
+    border-radius: 15%;
+  }
+
+  .icon-square {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.75rem;
+}
